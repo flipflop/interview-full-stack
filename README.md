@@ -107,25 +107,25 @@ Answer: For example, JavaScript does not have block scope in For Loops, when var
 Answer: JSONP (JSON with Padding), essentially abuses how a script tag loads JavaScript and allows JavaScript from another domain to supply data into a Web Application (avoiding Cross Domain restrictions). Typically a callback function is provided allowing the requestor to make use of data / functionality from the external site.  Bonus: this is now considered a serious XSS vector and security risk. Cross Origin Request Sharing (CORS) is now recommended instead.
 
 - Explain why the following doesn't work as an IIFE: 
-
+```
 function() { 
 
 }();
-
+```
 - What needs to be changed to properly make it an IIFE?
 
 Answer: Immediately Invoking Function Expressions require an evaluation typically via parenthesis in order to invoke e.g.
-
+```
 (function() {
 	console.log('IIFE');
 }());
-
+```
 Bonus: you can also do this (if you're a Twitter Front End 'Hypster' developer):
-
+```
 !function() {
 	console.log('IIFE');
 }();
-
+```
 Bonusx2: if you can explain how the above works.
 
 - Why is extending built-in JavaScript objects not a good idea?
