@@ -39,6 +39,18 @@ Answer: Representational State Transfer. In API Design HTTP Verbs (GET, PUT, POS
 
 * PUT and POST can be used interchangably to create / update resource.
 
+##Atomic Design
+
+- What is the Atomic Design methodology?
+
+Answer: Atomic design is methodology for creating design systems, comprised of:
+
++ Atoms - Atoms are the basic building blocks of matter. 
++ Molecules - Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound.
++ Organisms - Organisms are groups of molecules joined together to form a relatively complex, distinct section of an interface.
++ Templates - Templates consist mostly of groups of organisms stitched together to form pages.
++ Pages - Pages are specific instances of templates.
+
 ##HTML
 
 - What is HTML?
