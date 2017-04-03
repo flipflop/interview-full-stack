@@ -1,6 +1,6 @@
-#Interview Questions: Full Stack
+# Interview Questions: Full Stack
 
-##Google Style Questions
+## Google Style Questions
 
 - Ice breaker question: Why are Man Hole Covers round? 
 
@@ -15,7 +15,7 @@ Tip: look for enthusiam in attempting to answer, indicative of a passionate prob
 
 Potential Answers: They are round because they are typically heavy and may require to be rolled into place. Round covers can not fall into the drain. 
 
-##Internet
+## Internet
 
 - Imagine you are sitting in front of a browser and you type the address www.facebook.com and press return in the URL bar.
 
@@ -39,7 +39,7 @@ Answer: Representational State Transfer. In API Design HTTP Verbs (GET, PUT, POS
 
 * PUT and POST can be used interchangably to create / update resource.
 
-##Atomic Design
+## Atomic Design
 
 - What is the Atomic Design methodology?
 
@@ -51,7 +51,7 @@ Answer: Atomic design is methodology for creating design systems, comprised of:
 + Templates - Templates consist mostly of groups of organisms stitched together to form pages.
 + Pages - Pages are specific instances of templates.
 
-##HTML
+## HTML
 
 - What is HTML?
 
@@ -65,7 +65,7 @@ Answer: browser doctypes are used to indicate which parsing and rendering model 
 
 Answer: Semantic HTML is the use of the correct HTML tags that convey the correct meaning (Semantics) for the page element you are 'Marking Up'. For example, a list of product should be coded using a HTML list element, a list of search results should be coded using a HTML ordered list. HTML5 now provide a larger vocabulary of HTML Semantics. Bonus: Tim Berner's Lee gave a talk 20 years ago on the Semantic Web describing how standardised approaches to coding HTML can create a Database of human knowledge on the Internet, essentially increase interoperability and the ability for 'machines' to understand the meaning of content. This vision never happened because most Web developers ignore Semantic HTML. Tim created another Web technology to achieve his vision, called RDF and RDFa. Bonus: for mentioning Plain Old Semantic HTML (POSH).
 
-##CSS
+## CSS
 
 - What is the difference between an ID and a Class?
 
@@ -85,7 +85,7 @@ Answer: CSS3 provides a new set of styling and animation options not previously 
 	- CSS calc for greater selector control and pre-computation without the need of a CSS transpiler.
 
 
-##JavaScript
+## JavaScript
 
 - How do you rate your JavaScript knowledge from 1 to 10?
 
